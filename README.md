@@ -1,71 +1,34 @@
-# Getting Started with Create React App
+# froggy-api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Live Demo](https://froggy-lasnab.herokuapp.com/)
 
-## Available Scripts
+## [Video Walkthrough](https://youtu.be/PqTTv55x7qo)
 
-In the project directory, you can run:
+## About
+This is the API for the [Froggy Web Application](https://github.com/lasnab/froggy). The API is built using NodeJS + Express.
 
+Froggy is a web application for detecting faces in images. The app is not so much functional as it is a canvas to practive Full Stack Development on a React+Node based framework. The app used React for the front end, and is completely responsive. For the backend, NodeJS along with Express is used. For the database, PosgreSQL is being used. The app has full SignIn, and Registration functionality, and uses encryption to store user passwords in the database. 
+
+### [Front-End Src](https://github.com/lasnab/froggy)
+### [Backend Src](https://github.com/lasnab/froggy-api)
+
+## Technologies Used
+* React - Front-End
+* NodeJS + Express - Backend
+* CLARIFAI API - Face Detection
+* PostgreSQL - Database
+* Heroku + Git - Deployment
+* Other - NPM, CORS
+
+
+#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### To Run this on your Own Machine:
+Clone this repository
+```npm install```
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# froggy
+### Make sure to checkout out the backend (linked above) to run the complete project smoothly.
