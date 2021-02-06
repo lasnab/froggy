@@ -1,4 +1,4 @@
-# froggy-api
+# froggy
 
 ## [Live Demo](https://froggy-lasnab.herokuapp.com/)
 
